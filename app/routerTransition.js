@@ -711,7 +711,7 @@ class RouterTransitioner {
         this.updateTransitionTarget(counterpart.translate("app_init.database"));
         this._connectInProgress = true;
         if (Apis.instance()) {
-            if (!Apis.instance().orders_api())
+            if (!Apis.instance().db_api())
                 console.log(
                     `${Apis.instance().url} does not support the orders api`
                 );
@@ -743,9 +743,10 @@ class RouterTransitioner {
 
         return Promise.all([dbPromise, SettingsStore.init()])
             .then(() => {
-                let chainStoreResetPromise = chainChanged
-                    ? ChainStore.resetCache(false)
-                    : Promise.resolve();
+                if (chainChanged) {
+                    ChainStore.resetCache(false);
+                }
+                let chainStoreResetPromise = Promise.resolve();
                 return chainStoreResetPromise
                     .then(() => {
                         return Promise.all([
