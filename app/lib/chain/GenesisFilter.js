@@ -1,4 +1,4 @@
-import {hash, key} from "bitsharesjs";
+import {hash, key} from "peerplaysjs-lib";
 
 var bts_genesiskeys_bloom_url = undefined;
 try {

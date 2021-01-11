@@ -5,7 +5,7 @@ import {
     TransactionHelper,
     ChainTypes,
     ops
-} from "bitsharesjs";
+} from "peerplaysjs-lib";
 import {Price, Asset} from "common/MarketClasses";
 const {operations} = ChainTypes;
 

@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import {connect} from "alt-react";
 import cname from "classnames";
-import {PrivateKey, Aes, PublicKey, FetchChain, hash} from "bitsharesjs";
+import {PrivateKey, Aes, PublicKey, FetchChain, hash} from "peerplaysjs-lib";
 import AccountApi from "api/accountApi";
-import {ChainConfig} from "bitsharesjs-ws";
+import {ChainConfig} from "peerplaysjs-lib";
 import PrivateKeyStore from "stores/PrivateKeyStore";
 import WalletUnlockActions from "actions/WalletUnlockActions";
 import {WalletCreate} from "components/Wallet/WalletCreate";

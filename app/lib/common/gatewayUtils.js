@@ -1,4 +1,4 @@
-import {Apis} from "bitsharesjs-ws";
+import {Apis} from "peerplaysjs-lib";
 import GatewayActions from "actions/GatewayActions";
 import {
     availableBridges,

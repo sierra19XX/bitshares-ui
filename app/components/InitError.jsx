@@ -5,7 +5,7 @@ import SettingsStore from "stores/SettingsStore";
 import Translate from "react-translate-component";
 import WebsocketAddModal from "./Settings/WebsocketAddModal";
 import SettingsActions from "actions/SettingsActions";
-import {Apis} from "bitsharesjs-ws";
+import {Apis} from "peerplaysjs-lib";
 import {Form, Select, Button, Input} from "bitshares-ui-style-guide";
 import counterpart from "counterpart";
 

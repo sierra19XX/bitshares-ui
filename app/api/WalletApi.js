@@ -2,7 +2,7 @@ import {
     SerializerValidation,
     TransactionBuilder,
     TransactionHelper
-} from "bitsharesjs";
+} from "peerplaysjs-lib";
 import ApplicationApi from "./ApplicationApi";
 
 const WalletApi = {

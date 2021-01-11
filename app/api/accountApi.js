@@ -1,4 +1,4 @@
-import {Apis} from "bitsharesjs-ws";
+import {Apis} from "peerplaysjs-lib";
 
 class Api {
     lookupAccounts(startChar, limit) {

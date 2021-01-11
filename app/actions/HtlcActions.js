@@ -1,8 +1,8 @@
 import alt from "alt-instance";
-import {Apis} from "bitsharesjs-ws";
+import {Apis} from "peerplaysjs-lib";
 import WalletApi from "api/WalletApi";
 import WalletDb from "stores/WalletDb";
-import {ChainStore, hash, FetchChainObjects} from "bitsharesjs";
+import {ChainStore, hash, FetchChainObjects} from "peerplaysjs-lib";
 
 const calculateHash = (cipher, preimage) => {
     let preimage_hash_calculated = null;

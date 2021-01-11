@@ -39,7 +39,7 @@ import {
 import FeeAssetSelector from "components/Utility/FeeAssetSelector";
 import {checkBalance} from "common/trxHelper";
 import AccountSelector from "components/Account/AccountSelector";
-import {ChainStore} from "bitsharesjs";
+import {ChainStore} from "peerplaysjs-lib";
 const gatewayBoolCheck = "withdrawalAllowed";
 
 import {getAssetAndGateway, getIntermediateAccount} from "common/gatewayUtils";

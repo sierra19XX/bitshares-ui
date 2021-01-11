@@ -9,7 +9,7 @@ import {
     FetchChain,
     ChainStore,
     ChainTypes
-} from "bitsharesjs";
+} from "peerplaysjs-lib";
 import counterpart from "counterpart";
 import {Notification} from "bitshares-ui-style-guide";
 

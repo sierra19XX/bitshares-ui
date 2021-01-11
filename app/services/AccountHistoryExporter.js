@@ -1,5 +1,5 @@
 import {saveAs} from "file-saver";
-import {ChainTypes as grapheneChainTypes, FetchChain} from "bitsharesjs";
+import {ChainTypes as grapheneChainTypes, FetchChain} from "peerplaysjs-lib";
 import report from "bitshares-report";
 const {operations} = grapheneChainTypes;
 const ops = Object.keys(operations);

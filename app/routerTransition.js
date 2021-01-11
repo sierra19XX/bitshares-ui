@@ -1,5 +1,5 @@
-import {Apis, Manager} from "bitsharesjs-ws";
-import {ChainStore} from "bitsharesjs";
+import {Apis, ConnectionManager as Manager} from "peerplaysjs-lib";
+import {ChainStore} from "peerplaysjs-lib";
 import hirestime from "hirestime";
 
 // Stores

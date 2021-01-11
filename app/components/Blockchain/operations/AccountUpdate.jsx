@@ -1,6 +1,6 @@
 import React from "react";
 import TranslateWithLinks from "../../Utility/TranslateWithLinks";
-import {ChainStore} from "bitsharesjs";
+import {ChainStore} from "peerplaysjs-lib";
 
 const compareKeys = (prev, next) => {
     let minus = prev.filter(x => !next.includes(x));

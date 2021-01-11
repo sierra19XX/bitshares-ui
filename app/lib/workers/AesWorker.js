@@ -1,5 +1,5 @@
 require("babel-polyfill");
-import {Aes} from "bitsharesjs";
+import {Aes} from "peerplaysjs-lib";
 
 onmessage = function(event) {
     try {

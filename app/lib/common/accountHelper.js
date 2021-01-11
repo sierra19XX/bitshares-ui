@@ -1,4 +1,4 @@
-import {FetchChain} from "bitsharesjs";
+import {FetchChain} from "peerplaysjs-lib";
 import {FeedPrice, Asset} from "./MarketClasses";
 import asset_utils from "./asset_utils";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "react-translate-component";
-import {ChainStore} from "bitsharesjs";
+import {ChainStore} from "peerplaysjs-lib";
 import FormattedAsset from "../../Utility/FormattedAsset";
 import TranslateWithLinks from "../../Utility/TranslateWithLinks";
 

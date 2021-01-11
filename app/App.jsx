@@ -1,5 +1,5 @@
 import React from "react";
-import {ChainStore} from "bitsharesjs";
+import {ChainStore} from "peerplaysjs-lib";
 import AccountStore from "stores/AccountStore";
 import NotificationStore from "stores/NotificationStore";
 import {withRouter} from "react-router-dom";
@@ -461,10 +461,10 @@ class App extends React.Component {
                                     path="/accounts"
                                     component={DashboardAccountsOnly}
                                 />
-                                <Route
+                                {/* <Route
                                     path="/market/:marketID"
                                     component={Exchange}
-                                />
+                                /> */}
                                 <Route
                                     path="/settings/:tab"
                                     component={Settings}

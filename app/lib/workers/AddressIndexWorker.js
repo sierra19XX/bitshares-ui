@@ -1,4 +1,4 @@
-import {key} from "bitsharesjs";
+import {key} from "peerplaysjs-lib";
 
 onmessage = function(event) {
     try {

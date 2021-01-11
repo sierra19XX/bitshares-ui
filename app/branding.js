@@ -1,4 +1,4 @@
-import {Apis} from "bitsharesjs-ws";
+import {Apis} from "peerplaysjs-lib";
 /** This file centralized customization and branding efforts throughout the whole wallet and is meant to facilitate
  *  the process.
  *
@@ -42,7 +42,7 @@ export function getWalletURL() {
  */
 export function getFaucet() {
     return {
-        url: "https://faucet.bitshares.eu/onboarding", // 2017-12-infrastructure worker proposal
+        url: "https://faucet.peerplays.download/faucet", // 2017-12-infrastructure worker proposal
         show: true,
         editable: false,
         referrer: "onboarding.bitshares.foundation"
@@ -52,7 +52,7 @@ export function getFaucet() {
 export function getTestFaucet() {
     // fixme should be solved by introducing _isTestnet into getFaucet and fixing the mess in the Settings when fetching faucet address
     return {
-        url: "https://faucet.testnet.bitshares.eu", // operated as a contribution by BitShares EU
+        url: "https://elizabeth-faucet.peerplays.download/api/v1/accounts", // operated as a contribution by BitShares EU
         show: true,
         editable: false
     };

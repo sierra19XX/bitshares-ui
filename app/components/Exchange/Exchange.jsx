@@ -1,5 +1,5 @@
-import {Apis} from "bitsharesjs-ws";
-import {ChainStore, FetchChain} from "bitsharesjs";
+import {Apis} from "peerplaysjs-lib";
+import {ChainStore, FetchChain} from "peerplaysjs-lib";
 import {
     Tabs,
     Collapse,
